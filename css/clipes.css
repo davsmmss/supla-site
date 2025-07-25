@@ -1,0 +1,128 @@
+header{
+    background-image: url(/img/supla_background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    flex-direction: column;
+}
+.info a{
+    text-decoration: none;
+}
+.pes a{
+    color: white;
+}
+.titulo{
+    color: white;
+    width: 20vw;
+    height: fit-content;
+    margin: 13.5vh 0 20vh 1.25vw;
+    text-align: center;
+}
+.titulo h1{
+    margin-bottom: 5vh;
+}
+
+
+main{
+    background-image: url(/img/parede_textura-verde.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    padding: 5vh 0 12.5vh 0;
+}
+
+
+
+.card1{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    gap: 7.5%;
+    padding: 5%;
+    padding-bottom: 40vh;
+}
+.card1 img{
+    align-self: center;
+    width: 45vw;
+}
+
+.card1:nth-child(1){
+    padding-top: 30vh;
+}
+.card1:nth-child(even){
+    flex-direction: row-reverse;
+}
+.card1 video{
+    width: 45vw;
+    border-radius: 7.5px;
+}
+iframe{
+    width: 105vw;
+    border-radius: 7.5px;
+}
+
+
+
+.clipe1{
+    height: fit-content;
+    align-self: center;
+    background-color: rgb(43, 187, 79);
+    padding: 1.5%;
+    border-radius: 5px;
+}
+.clipe1 h1{
+    margin-bottom: 2.5vh;
+}
+.clipe1 p{
+    margin-bottom: 1vh;
+}
+.clipe1 p:last-child{
+    margin-bottom: 0;
+}
+
+
+
+.card2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 6%;
+    padding: 15vh 0 0vh 0;
+}
+.card2 video{
+    border-radius: 5px;
+}
+
+
+.lado1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+}
+.lado2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    height: fit-content;
+}
+.clipe2{
+    width: 75%;
+    height: fit-content;
+    align-self: center;
+    margin: 5%;
+    text-align: center;
+    background-color: rgb(43, 187, 79);
+    padding: 1.5%;
+    border-radius: 5px;
+}
+.clipe2 h1{
+    margin-bottom: 2.5vh;
+}
+.clipe2 p{
+    margin-bottom: 1vh;
+}
+.clipe2 p:last-child{
+    margin-bottom: 0;
+}

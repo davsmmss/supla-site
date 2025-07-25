@@ -1,0 +1,182 @@
+header{
+    background-image: url(/img/supla_background4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    flex-direction: column;
+}
+.titulo, .pes a{
+    color: white;
+}
+.info a{
+    text-decoration: none;
+}
+
+.titulo{
+    width: 25vw;
+    height: fit-content;
+    align-self: flex-end;
+    margin: 0vw 2vw 0 0;
+    text-align: center;
+}
+
+.titulo2 h1, .titulo2 p{
+    display: inline;
+}
+.titulo2 p{
+    margin: 0 0.2vw;
+}
+.titulo2{
+    margin-bottom: 3vh;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 45vh;
+    margin: 45vh 0 15vh 0;
+}
+main img{
+    border-radius: 2.5px;
+}
+
+
+.idol{
+    display: flex;
+    gap: 15%;
+    margin: 0 0 0 15vw;
+}
+.idol img{
+    width: 27.5vw;
+}
+.texto8{
+    text-align: left;
+    align-self: center;
+    width: 22.5vw;
+    padding: 1.5%;
+}
+.texto8 h1{
+    margin-bottom: 3vh;
+}
+.texto8 p{
+    margin-bottom: 1vh;
+}
+.texto8 p:last-child{
+    margin: 3.25vh 0 0 0;
+}
+
+
+
+
+.junto2{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin: 0 2vw;
+}
+.junto2 img{
+    width: 22.5vw;
+}
+
+
+.tapaolho{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 2vw;
+    width: 50%;
+}
+
+
+
+.punk1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2vw;
+    width: 50%;
+}
+.punk1 p{
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+.junto1{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+.junto1 img{
+    width: 25vw;
+}
+.texto1{
+    padding: 1.5%;
+    text-align: center;
+    align-self: center;
+}
+.texto1 h1{
+    margin-bottom: 3vh;
+}
+.texto1 p{
+    margin-bottom: 1vh;
+}
+
+
+.santos{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.25%;
+    width: 50%;
+}
+
+
+
+.trofeu{
+    display: flex;
+    width: 50%;
+}
+.trofeu p{
+    align-self: center;
+}
+
+
+
+
+.cueca{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+}
+.cueca img{
+    width: 32.5vw;
+}
+.cueca h1{
+    margin-bottom: 3vh;
+}
+.cueca p{
+    align-self: center;
+    margin-bottom: 1vh;
+}
+.cueca p:nth-last-child(){
+    margin-bottom: 0;
+}
+
+.lado1{
+    width: 25%;
+    align-self: flex-end;
+    margin-bottom: 4vh;
+}
+.lado2{
+    width: 25%;
+    margin-top: 4vh;
+}

@@ -1,0 +1,125 @@
+header{
+    background-image: url(/img/supla_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.creditos{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-left: 10px;
+    gap: 32.5%;
+}
+.info a{
+    text-decoration: none;
+}
+
+
+
+
+.creditos img{
+    height: 1.2vw;
+    margin: 0 0 2.5px 0;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 25vh;
+    margin: 15vh 0;
+}
+
+.card1{
+    display: flex;
+    gap: 9.5%;
+    margin-top: 14.5vh;
+}
+.card1 img{
+    width: 50vw;
+    margin-left: 3%;
+    border-radius: 5px;
+    object-fit: contain;
+    align-self: center;
+}
+.texto1{
+    width: 30%;
+}
+.texto1 h1{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.texto1 p{
+    margin-bottom: 3vh;
+}
+.texto1 p:nth-child(5){
+    margin-bottom: 0;
+}
+
+
+
+
+.card2{
+    display: flex;
+    gap: 8%;
+    margin-left: 5.5vw;
+}
+.card2 img{
+    width: 35vw;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: contain;
+}
+.texto2{
+    width: 50%;
+}
+.texto2 h1{
+    text-align: center;
+    margin-bottom: 6.5vh;
+}
+.texto2 p{
+    margin-bottom: 3vh;
+}
+.texto2 p:nth-child(5){
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.texto2 p:nth-child(6){
+    margin-left: 3vw;
+}
+.texto2 p:nth-child(7){
+    margin-left: 3vw;
+}
+
+
+
+
+
+.charada{
+    display: flex;
+    gap: 1.6%;
+}
+.charada img{
+    width: 60%;
+    margin-left: 2vw;
+    border-radius: 10px;
+    align-self: center;
+    object-fit: contain;
+}
+.texto3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.texto3 h1{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.texto3 p{
+    margin-bottom: 3vh;
+}
+.texto3 p:nth-child(5){
+    margin-bottom: 0;
+}

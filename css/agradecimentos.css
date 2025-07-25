@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.corpo{
+    background-image: url(/img/supla_background5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 120%;
+}
+
+
+.separar{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 15vh;
+    margin: 5vh 0 20vh 10vw;
+}
+
+
+
+.logo1{
+    justify-self: center;
+    align-self: center;
+}
+.logo1 img{
+    width: 12.5vw;
+}
+
+
+
+.titulo{
+    width: 20vw;
+    text-align: center;
+}
+.titulo h1{
+    margin-bottom: 5vh;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50vh;
+    padding: 100vh 0 35vh 0;
+}
+main img{
+    width: 30vw;
+}
+.texto1{
+    align-self: center;
+    width: 30vw;
+}
+.texto1 h1{
+    margin-bottom: 5vh;
+}
+.texto1 p{
+    margin-bottom: 3vh;
+}
+.texto1 p:nth-last-child(){
+    margin-bottom: 0;
+}
+
+
+.bowie{
+    display: flex;
+    gap: 17.5%;
+}
+.bowie img{
+    width: 40vw;
+}
+
+
+.ramones{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15.25%;
+    padding: 0 5vw;
+}
+
+.ramones img{
+    width: 40vw;
+}
+
+
+.billy{
+    display: flex;
+    gap: 20%;
+    padding: 0 2.5vw;
+}
+
+.billy img{
+    width: 40vw;
+}
+
+.clash{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12.5%;
+    padding: 0 5vw;
+}
+
+.clash img{
+    width: 40vw;
+}
+.clash .texto1{
+    width: 35vw;
+}
+
+
+
+.raul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 17.5%;
+}
+
+.raul img{
+    width: 40vw;
+}
+
+
+.beatles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5%;
+}
+
+.beatles img{
+    width: 37.5vw;
+}
+.texto2{
+    align-self: center;
+    text-align: center;
+    width: 27.5%;
+}
+.texto2 h1{
+    margin-bottom: 5vh;
+}
+.texto2 p{
+    margin-bottom: 3vh;
+}
+.texto2 p:nth-last-child(){
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.fim1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+.fim2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fim2 img{
+    width: 57.3vw;
+}
+.fimtexto p{
+    margin-bottom: 3vh;
+}
+.fimtexto p:nth-last-child(){
+    margin-bottom: 0;
+}
+
+.direcao{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 5% 5%;
+    gap: 20%;
+}
+
+
+.cima{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+
+.baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 18vh;
+    margin-top: 30vh;
+    padding: 0 1% 1% 1%;
+}
+footer img{
+    object-fit: contain;
+    margin-left: 2vw;
+}
+
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1%;
+    margin-bottom: 1.75%;
+}
+
+
+
+.centro{
+    display: flex;
+}
+.centro a{
+    display: flex;
+}
+
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 1%;
+    margin-bottom: 1.75%;
+}
